@@ -4,9 +4,9 @@ export const personalInfo = {
   email: "jan.milacek@gmail.com",
   github: "https://github.com/jan-milacek",
   linkedin: "https://www.linkedin.com/in/milacek",
-  profilePicture: "/tata.jpg",
+  profilePicture: "/jan_milacek_foto.jpeg",
     heroDescription: [
-    "I build analytics solutions that executives actually use—Power BI dashboards for strategic decisions, Grafana monitoring for operational excellence, and data platforms designed to last.",
+    "I build analytics solutions that executives actually use - BI analytics dashboards for strategic decisions, Grafana stack for observability, and data platforms designed to last.",
     "After 20 years across banking, logistics, healthcare, and energy, I know the difference between demos and production systems."
   ],
 };
@@ -16,7 +16,7 @@ export const aboutMe = {
   intro: [
     "I'm a business intelligence and data analytics consultant based in Prague with 20+ years turning data into decisions across banking, logistics, healthcare, and energy sectors.",
     "At DHL IT Services, I build analytics solutions that executives actually use—Power BI dashboards, Grafana operational monitoring, and data platforms that answer real business questions.",
-    "My background spans the full data lifecycle: from engineering reliable pipelines to creating dashboards that drive million-euro decisions."
+    "My background spans the full data lifecycle: from engineering reliable pipelines to creating dashboards that drive senior management decisions."
   ],
   differentiators: {
     title: "What Makes My Approach Different",
@@ -134,8 +134,7 @@ export const skills = {
 export const projects = [
   {
     title: "Modern Data Platform for Integration Monitoring",
-    github: "#",
-    website: "/case-studies/integration-monitoring",
+    link: "/case-studies/integration-monitoring",
     description: [
       "Built modern data platform monitoring 672 partner connections processing 2.7M daily messages across 4 geographic regions",
       "Designed Airflow + dbt + PostgreSQL architecture handling billions of records with 95%+ reliability",
@@ -147,8 +146,7 @@ export const projects = [
   },
   {
     title: "Resource Management & Billing Analytics Platform",
-    github: "#",
-    website: "/case-studies/resource-management",
+    link: "/case-studies/resource-management",
     description: [
       "Power BI platform eliminating 96% of manual reporting effort (2 days → 30 minutes monthly)",
       "Automated integration of Planview capacity planning with e-time actual bookings across 100 resources",
@@ -160,8 +158,7 @@ export const projects = [
   },
   {
     title: "Emergency Incident Root Cause Analysis Platform",
-    github: "#",
-    website: "/case-studies/incident-analysis",
+    link: "/case-studies/incident-analysis",
     description: [
       "Power BI analytics platform supporting critical integration platform migration to cloud",
       "Combined Azure Synapse ServiceNow data with expert root cause categorization for migration risk assessment",
@@ -173,8 +170,7 @@ export const projects = [
   },
   {
     title: "ServiceNow IT Operations Monitoring Platform",
-    github: "#",
-    website: "/case-studies/servicenow-monitoring",
+    link: "/case-studies/servicenow-monitoring",
     description: [
       "Built integrated monitoring platform bridging ServiceNow ITSM with infrastructure metrics for 20+ critical services",
       "Implemented dual-frequency Airflow orchestration: hourly standard data + 5-minute emergency incident polling",
@@ -203,41 +199,41 @@ export const awards = [
     position: null,
   },
   {
-    name: "Azure Data Engineer Associate",
+    name: "Microsoft Azure Data Engineer Associate",
     issuer: "Microsoft",
     date: "Oct 2024",
     type: "Professional Certification",
     position: null,
   },
-  {
-    name: "Azure Solutions Architect Expert",
+    {
+    name: "Microsoft Power BI Data Analyst Associate",
     issuer: "Microsoft",
-    date: "Aug 2021",
-    type: "Expert Certification",
+    date: "Dec 2023",
+    type: "Professional Certification",
     position: null,
   },
   {
-    name: "Cybersecurity Architect Expert",
+    name: "Microsoft Azure Cybersecurity Architect Expert",
     issuer: "Microsoft",
     date: "Jan 2023",
     type: "Expert Certification",
     position: null,
   },
   {
-    name: "Power BI Data Analyst Associate",
+    name: "Microsoft Azure Solutions Architect Expert",
     issuer: "Microsoft",
-    date: "Dec 2023",
-    type: "Professional Certification",
+    date: "Aug 2021",
+    type: "Expert Certification",
     position: null,
   },
 ];
 
 export const contactInfo = {
-  description: "Whether you're building new dashboards, fixing existing BI investments, or need someone who understands both business questions and technical implementation—let's talk.",
+  description: "Whether you're building new dashboards, fixing existing BI investments, or need someone who understands both business questions and technical implementation - let's talk.",
   email: "jan.milacek@gmail.com",
   linkedin: "https://www.linkedin.com/in/milacek",
   github: "https://github.com/jan-milacek",
   location: "Prague, Czech Republic",
   availability: "Consulting, advisory work, speaking engagements",
-  expectation: "I typically respond within 24 hours. First conversation is always free—we'll discuss your challenge and whether I can help."
+  expectation: "I typically respond within 24 hours. First conversation is always free - we'll discuss your challenge and whether I can help."
 };
