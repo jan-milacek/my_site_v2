@@ -134,7 +134,7 @@ export const skills = {
 export const projects = [
   {
     title: "Modern Data Platform for Integration Monitoring",
-    link: "/case-studies/integration-monitoring",
+    link: "https://github.com/jan-milacek/case_studies/tree/main/modern-data-platform-integration-monitoring",
     description: [
       "Built modern data platform monitoring 672 partner connections processing 2.7M daily messages across 4 geographic regions",
       "Designed Airflow + dbt + PostgreSQL architecture handling billions of records with 95%+ reliability",
@@ -146,7 +146,7 @@ export const projects = [
   },
   {
     title: "Resource Management & Billing Analytics Platform",
-    link: "/case-studies/resource-management",
+    link: "https://github.com/jan-milacek/case_studies/tree/main/resource-management-billing-analytics",
     description: [
       "Power BI platform eliminating 96% of manual reporting effort (2 days → 30 minutes monthly)",
       "Automated integration of Planview capacity planning with e-time actual bookings across 100 resources",
@@ -158,7 +158,7 @@ export const projects = [
   },
   {
     title: "Emergency Incident Root Cause Analysis Platform",
-    link: "/case-studies/incident-analysis",
+    link: "https://github.com/jan-milacek/case_studies/tree/main/emergency-incident-root-cause-analysis",
     description: [
       "Power BI analytics platform supporting critical integration platform migration to cloud",
       "Combined Azure Synapse ServiceNow data with expert root cause categorization for migration risk assessment",
@@ -170,7 +170,7 @@ export const projects = [
   },
   {
     title: "ServiceNow IT Operations Monitoring Platform",
-    link: "/case-studies/servicenow-monitoring",
+    link: "https://github.com/jan-milacek/case_studies/tree/main/servicenow-it-operations-monitoring",
     description: [
       "Built integrated monitoring platform bridging ServiceNow ITSM with infrastructure metrics for 20+ critical services",
       "Implemented dual-frequency Airflow orchestration: hourly standard data + 5-minute emergency incident polling",
