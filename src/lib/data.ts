@@ -6,18 +6,17 @@ export const personalInfo = {
   linkedin: "https://www.linkedin.com/in/milacek",
   profilePicture: "/jan_milacek_foto.jpeg",
     heroDescription: [
-    "I build analytics solutions that executives actually use - BI analytics dashboards for strategic decisions, Grafana stack for observability, and data platforms designed to last.",
-    "After 20 years across banking, logistics, healthcare, and energy, I know the difference between demos and production systems."
-  ],
+  "I build analytics solutions that executives actually use - Power BI dashboards for strategic decisions, Grafana monitoring for operational excellence, and data platforms designed to last.",
+  "After 20 years across banking, logistics, healthcare, and energy, I know the difference between demos and production systems."
+],
 };
 
 export const aboutMe = {
   title: "About Me",
   intro: [
-    "I'm a business intelligence and data analytics consultant based in Prague with 20+ years turning data into decisions across banking, logistics, healthcare, and energy sectors.",
-    "At DHL IT Services, I build analytics solutions that executives actually use—Power BI dashboards, Grafana operational monitoring, and data platforms that answer real business questions.",
-    "My background spans the full data lifecycle: from engineering reliable pipelines to creating dashboards that drive senior management decisions."
-  ],
+  "Business intelligence and data analytics consultant based in Prague, specializing in solutions that work reliably long-term.",
+  "I've seen enough trendy 'modern data stacks' fail to know what actually survives in production. My approach: proven tools, clear business value, and systems you can maintain after I'm gone."
+],
   differentiators: {
     title: "What Makes My Approach Different",
     items: [
@@ -180,6 +179,19 @@ export const projects = [
       "Tech Stack: ServiceNow • Airflow • MySQL • Prometheus • Grafana • Python",
     ],
   },
+  {
+    title: "SQL for IoT - Educational Tools Development",
+    link: "https://github.com/jan-milacek/case_studies/tree/main/sql-for-iot-tools",
+    description: [
+      "Built custom Python/Streamlit tools for teaching SQL and IoT data analysis",
+      "Created SQL Simulator: web-based SQL learning environment with zero installation",
+      "Created MQTT Dashboard: real-time IoT sensor monitoring and simulation tool",
+      "Designed and delivered 9-week curriculum: SQL fundamentals → Grafana dashboards → real weather station",
+      "Students progressed from zero SQL knowledge to professional Grafana dashboards analyzing real sensor data",
+      "Tech Stack: Python • Streamlit • SQLite • MQTT • Pandas • Plotly",
+    ],
+  }
+
 ];
 
 
@@ -188,28 +200,28 @@ export const awards = [
     name: "Microsoft Fabric Data Engineer Associate",
     issuer: "Microsoft",
     date: "Mar 2025",
-    type: "Professional Certification",
+    type: "Associate Certification",
     position: null,
   },
   {
     name: "Microsoft Fabric Analytics Engineer Associate",
     issuer: "Microsoft",
     date: "Feb 2025",
-    type: "Professional Certification",
+    type: "Associate Certification",
     position: null,
   },
   {
     name: "Microsoft Azure Data Engineer Associate",
     issuer: "Microsoft",
     date: "Oct 2024",
-    type: "Professional Certification",
+    type: "Associate Certification",
     position: null,
   },
     {
     name: "Microsoft Power BI Data Analyst Associate",
     issuer: "Microsoft",
     date: "Dec 2023",
-    type: "Professional Certification",
+    type: "Associate Certification",
     position: null,
   },
   {
@@ -220,16 +232,30 @@ export const awards = [
     position: null,
   },
   {
+    name: "Microsoft Azure Developer Associate",
+    issuer: "Microsoft",
+    date: "Sep 2022",
+    type: "Associate Certification",
+    position: null,
+  },
+  {
+    name: "Microsoft Azure Security Engineer Associate",
+    issuer: "Microsoft",
+    date: "Jan 2022",
+    type: "Associate Certification",
+    position: null,
+  },
+  {
     name: "Microsoft Azure Solutions Architect Expert",
     issuer: "Microsoft",
     date: "Aug 2021",
     type: "Expert Certification",
     position: null,
-  },
+  }
 ];
 
 export const contactInfo = {
-  description: "Whether you're building new dashboards, fixing existing BI investments, or need someone who understands both business questions and technical implementation - let's talk.",
+  description: "Whether you're building new dashboards, fixing existing BI investments, or need someone who understands both business questions and technical implementation - I'm open to discussing opportunities.",
   email: "jan.milacek@gmail.com",
   linkedin: "https://www.linkedin.com/in/milacek",
   github: "https://github.com/jan-milacek",
