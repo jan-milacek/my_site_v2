@@ -30,7 +30,7 @@ export default function ContactSection() {
   return (
     <section
       id="contact"
-      className="py-12 bg-gradient-to-b from-muted/20 to-background"
+      className="py-12 bg-linear-to-b from-muted/20 to-background"
     >
       <div className="container max-w-4xl mx-auto px-6 md:px-4">
         <MotionWrapper>
@@ -97,6 +97,20 @@ export default function ContactSection() {
                   </div>
                 </motion.a>
 
+                <motion.a
+                    href={`https://${contactInfo.company}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center text-muted-foreground hover:text-foreground transition-colors group"
+                    whileHover={{ x: 5 }}
+                    >
+                    <Globe className="h-5 w-5 mr-3 text-purple-500 group-hover:text-pink-500 transition-colors" />
+                    <div>
+                      <span className="font-medium">Company:</span>{" "}
+                      <span className="group-hover:underline">{contactInfo.company}</span>
+                    </div>
+                    </motion.a>
+
                 <motion.div className="pt-4 border-t border-purple-500/20">
                   <div className="flex items-center text-muted-foreground mb-2">
                     <MapPin className="h-5 w-5 mr-3 text-purple-500" />
@@ -118,7 +132,7 @@ export default function ContactSection() {
 
           {/* What to Expect Card */}
           <motion.div variants={itemVariants}>
-            <GlassCard className="p-6 bg-gradient-to-r from-purple-500/5 to-pink-500/5">
+            <GlassCard className="p-6 bg-linear-to-r from-purple-500/5 to-pink-500/5">
               <h3 className="text-lg font-semibold mb-3 text-center md:text-left">
                 What to Expect
               </h3>

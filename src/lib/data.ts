@@ -47,10 +47,19 @@ export const aboutMe = {
 
 export const workExperience = [
   {
+    company: "MilacekTech",
+    location: "Prague, Czech Republic",
+    position: "Founder, Owner, Principal Consultant",
+    period: "May 2026 - Present",
+    achievements: [
+      "► Started consulting practice to work directly with companies on data engineering and BI challenges",
+    ],
+  },
+  {
     company: "DHL IT Services",
-    location: "Prague, Czechia",
+    location: "Prague, Czech Republic",
     position: "ITS DSC Solutions Domain Consultant",
-    period: "Sep 2021 - Present",
+    period: "Sep 2021 - Apr 2026",
     achievements: [
       "► Delivered business intelligence and data engineering solutions combining technical implementation with strategic consulting",
       "► Built production data pipelines with Python, Apache Airflow, and dbt for reliable daily operations",
@@ -256,9 +265,10 @@ export const awards = [
 
 export const contactInfo = {
   description: "Whether you're building new dashboards, fixing existing BI investments, or need someone who understands both business questions and technical implementation - I'm open to discussing opportunities.",
-  email: "jan.milacek@gmail.com",
+  email: "jan@milacek-tech.com",
   linkedin: "https://www.linkedin.com/in/milacek",
   github: "https://github.com/jan-milacek",
+  company: "www.milacek-tech.com",
   location: "Prague, Czech Republic",
   availability: "Consulting, advisory work, speaking engagements",
   expectation: "I typically respond within 24 hours. First conversation is always free - we'll discuss your challenge and whether I can help."
