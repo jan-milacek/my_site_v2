@@ -106,7 +106,7 @@ export default function ContactSection() {
                     >
                     <Globe className="h-5 w-5 mr-3 text-purple-500 group-hover:text-pink-500 transition-colors" />
                     <div>
-                      <span className="font-medium">Company:</span>{" "}
+                      <span className="font-medium">My company:</span>{" "}
                       <span className="group-hover:underline">{contactInfo.company}</span>
                     </div>
                     </motion.a>

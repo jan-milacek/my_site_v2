@@ -1,9 +1,10 @@
 export const personalInfo = {
   name: "Jan Miláček",
   location: "Prague, Czech Republic",
-  email: "jan.milacek@gmail.com",
+  email: "jan@milacek-tech.com",
   github: "https://github.com/jan-milacek",
   linkedin: "https://www.linkedin.com/in/milacek",
+  website: "www.milacek-tech.com",
   profilePicture: "/jan_milacek_foto.jpeg",
     heroDescription: [
   "I build analytics solutions that executives actually use - Power BI dashboards for strategic decisions, Grafana monitoring for operational excellence, and data platforms designed to last.",
