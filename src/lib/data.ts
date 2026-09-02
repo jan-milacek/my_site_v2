@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: "Jan Miláček",
   location: "Prague, Czech Republic",
-  email: "jan@milacek-tech.com",
+  email: "jan@milacek.uk",
   github: "https://github.com/jan-milacek",
   linkedin: "https://www.linkedin.com/in/milacek",
   website: "www.milacek-tech.com",
@@ -266,7 +266,7 @@ export const awards = [
 
 export const contactInfo = {
   description: "Whether you're building new dashboards, fixing existing BI investments, or need someone who understands both business questions and technical implementation - I'm open to discussing opportunities.",
-  email: "jan@milacek-tech.com",
+  email: "jan@milacek.uk",
   linkedin: "https://www.linkedin.com/in/milacek",
   github: "https://github.com/jan-milacek",
   company: "www.milacek-tech.com",
